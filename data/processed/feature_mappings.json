@@ -1,0 +1,46 @@
+{
+  "brand_mapping": {
+    "'B1'": "'B1'",
+    "'B10'": "Other_Mid",
+    "'B11'": "Other_Mid",
+    "'B12'": "'B12'",
+    "'B13'": "Other_Mid",
+    "'B14'": "Other_Low",
+    "'B2'": "'B2'",
+    "'B3'": "'B3'",
+    "'B4'": "'B4'",
+    "'B5'": "'B5'",
+    "'B6'": "'B6'"
+  },
+  "region_mapping": {
+    "'R11'": "R4-Haut",
+    "'R21'": "R4-Haut",
+    "'R22'": "R4-Haut",
+    "'R23'": "R2-Moyen_bas",
+    "'R24'": "R1-Bas",
+    "'R25'": "R2-Moyen_bas",
+    "'R26'": "R3-Moyen_haut",
+    "'R31'": "R3-Moyen_haut",
+    "'R41'": "R1-Bas",
+    "'R42'": "R4-Haut",
+    "'R43'": "R2-Moyen_bas",
+    "'R52'": "R1-Bas",
+    "'R53'": "R2-Moyen_bas",
+    "'R54'": "R1-Bas",
+    "'R72'": "R1-Bas",
+    "'R73'": "R2-Moyen_bas",
+    "'R74'": "R3-Moyen_haut",
+    "'R82'": "R4-Haut",
+    "'R83'": "R1-Bas",
+    "'R91'": "R3-Moyen_haut",
+    "'R93'": "R3-Moyen_haut",
+    "'R94'": "R4-Haut"
+  },
+  "seuil_ecretement": 16793.704399999988,
+  "model_variables": {
+    "identifiant": "['IDpol']",
+    "cibles": "['ClaimNb', 'TotalClaimAmount', 'TotalClaimAmount_capped']",
+    "exposition": "['Exposure']",
+    "variables_tarifaires": "['DrivAge_grp', 'VehAge_grp', 'VehPower_grp', 'BM_grp', 'VehBrand_grp', 'VehGas', 'Area', 'Region_grp', 'Density_grp']"
+  }
+}
